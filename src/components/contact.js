@@ -2,9 +2,9 @@ import React from 'react'
 
 const conatct = () => {
     return (
-        <div>
+        <section>
             <h1>This is conatct Page</h1>
-        </div>
+        </section>
     )
 }
 

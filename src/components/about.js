@@ -2,9 +2,9 @@ import React from 'react'
 
 const about = () => {
     return (
-        <div>
+        <section>
             <h1>This is About Page</h1>
-        </div>
+        </section>
     )
 }
 
