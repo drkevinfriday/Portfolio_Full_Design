@@ -7,6 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color:rgb(8, 8, 7)
   }
+  .dropdown-menu.show{
+    display:flex
+  }
+  .dropdown-toggle::after{
+    content: none !important; 
+  }
   .footer-title{
     color: rgb(60, 99, 59)
   }
