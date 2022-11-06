@@ -11,11 +11,11 @@ function header() {
      expand="lg" bg='black' className='navbar  navbar-dark p-3 '>
         <LinkContainer to="/">
         <Navbar.Brand>
-                Kevin Friday
+                Kevin jFriday
         </Navbar.Brand>
       </LinkContainer >
-      <Navbar.Toggle  aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse  className=' d-flex justify-content-end'>
+      
+   
             <Nav gap={2}  title='Menu' className='nav-links col'>
               <LinkContainer to="/home">
                 <Nav.Link className='link-box'>Home</Nav.Link>
@@ -30,7 +30,7 @@ function header() {
                 <Nav.Link className='link-box'>Conatct</Nav.Link>
               </LinkContainer>
             </Nav>
-      </Navbar.Collapse>
+  
     </Navbar>
   );
 }
