@@ -7,7 +7,7 @@ function NavbarDarkExample() {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/home">Kevin Friday</Navbar.Brand>
+        <Navbar.Brand href="/">Kevin Friday</Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="navbar-dark-example" /> */}
         <Navbar.Collapse id="navbar-dark-example">
           <Nav>
@@ -18,14 +18,14 @@ function NavbarDarkExample() {
              align={{ lg: 'end' }}
               
             >
-              <NavDropdown.Item href="/home">
+              <NavDropdown.Item href="./">
                 Home
               </NavDropdown.Item>
-              <NavDropdown.Item href="/work">Work</NavDropdown.Item>
-              <NavDropdown.Item href="/about">
+              <NavDropdown.Item href="./work">Work</NavDropdown.Item>
+              <NavDropdown.Item href="./about">
                 About
               </NavDropdown.Item>
-              <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="./contact">Contact</NavDropdown.Item>
      
               
             </NavDropdown>
