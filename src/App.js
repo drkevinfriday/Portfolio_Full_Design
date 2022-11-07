@@ -14,18 +14,18 @@ import About from './components/about'
 
 function App() {
   return (
-    <BrowserRouter>
+    <main>
     <Nav/>
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route exact path="/home" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<About />} />
+     <Route path="/about" element={<About />} />
       <Route path="/work" element={<Work />} />
-    
+      
       
     </Routes>
     <Footer />
-  </BrowserRouter>
+    </main>
   );
 }
 
