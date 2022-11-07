@@ -14,7 +14,7 @@ import About from './components/about'
 
 function App() {
   return (
-    <main>
+    <>
     <Nav/>
     <Routes>
       <Route exact path="/home" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
       
     </Routes>
     <Footer />
-    </main>
+    </>
   );
 }
 
