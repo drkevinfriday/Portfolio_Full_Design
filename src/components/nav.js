@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Link from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import React from 'react';
 function NavbarDarkExample() {
   return (
@@ -19,14 +19,16 @@ function NavbarDarkExample() {
              align={{ lg: 'end' }}
               
             >
-              <NavDropdown.Item href="./">
-                Home
+              <NavDropdown.Item >
+              <Link to="/">Home</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="./work">Work</NavDropdown.Item>
-              <NavDropdown.Item href="./about">
-                About
+              <NavDropdown.Item >
+              <Link to="/work">Work</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="./contact">Contact</NavDropdown.Item>
+              <NavDropdown.Item >
+              <Link to="/about">About</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item><Link to="/contact">Contact</Link></NavDropdown.Item>
      
               
             </NavDropdown>
